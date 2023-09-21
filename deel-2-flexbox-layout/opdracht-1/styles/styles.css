@@ -4,6 +4,7 @@
 body{
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 
 
 }
@@ -16,22 +17,24 @@ header{
 main{
     display: flex;
     flex-direction: row;
-    flex-basis: 100vh;
+    flex-grow:1;
 
 }
 
 article{
     flex-basis: 60vw;
-    flex-shrink: 1;
     flex-grow: 1;
+    order: 1;
 }
 
 nav{
     flex-basis: 20vw;
+    order: 3;
 }
 
 aside{
     flex-basis: 20vw;
+    order: 2;
 }
 
 footer{
