@@ -1,1 +1,39 @@
 /*Schrijf hier jouw CSS*/
+/*OPDRACHT1*/
+
+body{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+header{
+    flex-basis: 20vh;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100vh;
+
+}
+
+article{
+    flex-basis: 60vw;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+nav{
+    flex-basis: 20vw;
+}
+
+aside{
+    flex-basis: 20vw;
+}
+
+footer{
+    flex-basis: 80px 10vh;
+}
