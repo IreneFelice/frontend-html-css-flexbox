@@ -1,1 +1,70 @@
 /*Schrijf hier jouw CSS*/
+/*OPDRACHT 1*/
+.block-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*OPDRACHT 2*/
+.even-text{
+    display: flex;
+}
+
+.even-text > * {
+flex-basis: 100%;
+}
+
+/*OPDRACHT 3*/
+
+.stairs{
+   border: purple 5px solid;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+.case1{
+align-self: start;
+}
+.case2{
+    align-self: center;
+}
+.case3{
+    align-self: flex-end;
+}
+
+/*OPDRACHT4*/
+
+.sentence{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+/*OPDRACHT5*/
+
+.lists{
+    /*flex-basis: 100%;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lists > *{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.list1{
+    align-items: start;
+}
+
+.list2{
+    align-items: center;
+}
+
+.list3{
+    align-items: end;
+}
