@@ -1,1 +1,37 @@
-/*Schrijf hier jouw css*/
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100vw;
+    text-align: center;
+    background-color: #F2F3D9;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+article{
+    display: flex;
+    flex-basis: 280px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    border-radius: 5px;
+    background-color: #C16E70;
+    padding: 16px;
+    justify-content: center;
+    align-items: end;
+    height: 350px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+    column-gap: 20px;
+    justify-content: center;
+}
